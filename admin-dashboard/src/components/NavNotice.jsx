@@ -48,7 +48,7 @@ function NavNotice() {
                 </li>
 
                 <li className='dropdown-footer'>
-                    <a href="#">Show all notifications</a>
+                    <a href="#" className='text-decoration-none'>Show all notifications</a>
                 </li>
             </ul>
         </li>
