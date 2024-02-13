@@ -3,6 +3,7 @@ import "./sideBar.css"
 function SideBar() {
     return (
         <aside className='sidebar' id='sidebar'>
+            <h6>Admin</h6>
             <ul className="sidebar-nav" id='sidebar-nav'>
                 <li className='nav-item'>
                     <a href="/" className="nav-link">
@@ -18,7 +19,7 @@ function SideBar() {
                         data-bs-toggle='collapse'
                     >
                         <i className='bi bi-menu-button-wide'></i>
-                        <span>Documents</span>
+                        <span>Products</span>
                         <i className='bi bi-chevron-down ms-auto'></i>
                     </a>
                     <ul id='components-nav'
@@ -27,20 +28,17 @@ function SideBar() {
                     >
                         <li>
                             <a href="#">
-                                <i className='bi bi-circle'></i>
-                                <span>Customers</span>
+                                <span>Product list</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i className='bi bi-circle'></i>
-                                <span>Suppliers</span>
+                                <span>Create Products</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i className='bi bi-circle'></i>
-                                <span>Logistics</span>
+                                <span>Product Reviews</span>
                             </a>
                         </li>
                     </ul>
@@ -51,8 +49,7 @@ function SideBar() {
                         data-bs-target='#forms-nav'
                         data-bs-toggle='collapse'
                     >
-                        <i className='bi bi-journal-text'></i>
-                        <span>Forms</span>
+                        <i class="bi bi-person-gear"></i>                        <span>Categories</span>
                         <i className='bi bi-chevron-down ms-auto'></i>
                     </a>
                     <ul
@@ -62,20 +59,12 @@ function SideBar() {
                     >
                         <li>
                             <a href="#">
-                                <i className='bi bi-circle'></i>
-                                <span>Application Form</span>
+                                <span>Categories List</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i className='bi bi-circle'></i>
-                                <span>Release Form</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i className='bi bi-circle'></i>
-                                <span>Cancellation Form</span>
+                                <span>Create Categories</span>
                             </a>
                         </li>
                     </ul>
@@ -87,8 +76,8 @@ function SideBar() {
                         data-bs-target='#tables-nav'
                         data-bs-toggle='collapse'
                     >
-                        <i className='bi bi-layout-text-window-reverse'></i>
-                        <span>Tables</span>
+                        <i class="bi bi-headset-vr"></i>
+                        <span>Brands</span>
                         <i className='bi bi-chevron-down ms-auto'></i>
                     </a>
                     <ul
@@ -98,47 +87,52 @@ function SideBar() {
                     >
                         <li>
                             <a href="#">
-                                <i className='bi bi-circle'></i>
-                                <span>General Tables</span>
+                                <span>Brand List</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i className='bi bi-circle'></i>
-                                <span>Data Tables</span>
+                                <span>Create Brand</span>
                             </a>
                         </li>
                     </ul>
                 </li>
 
                 <li className='nav-item'>
+                    <a href="#" className='nav-link collapsed'
+                        data-bs-target='#order-nav'
+                        data-bs-toggle='collapse'
+                    >
+                        <i class="bi bi-card-list"></i>
+                        <span>Order</span>
+                        <i className='bi bi-chevron-down ms-auto'></i>
+                    </a>
+                    <ul
+                        id='order-nav'
+                        className='nav-content collapse'
+                        data-bs-parent='#sidebar-nav'
+                    >
+                        <li>
+                            <a href="#">
+                                <span>Order List</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Order Details</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li className='nav-item'>
                 <a href="#" className='nav-link collapsed'
-                data-bs-target='#tables-nav'
-                data-bs-toggle='collapse'
+                    data-bs-target='#order-nav'
+                    data-bs-toggle='collapse'
                 >
-                <i className='bi bi-layout-text-window-reverse'></i>
-                <span>Tables</span>
-                <i className='bi bi-chevron-down ms-auto'></i>
+                    <i class="bi bi-card-list"></i>
+                    <span>Customers</span>
                 </a>
-                <ul
-                id='tables-nav'
-                className='nav-content collapse'
-                data-bs-parent='#sidebar-nav'
-                >
-                <li>
-                <a href="#">
-                <i className='bi bi-circle'></i>
-                <span>General Tables</span>
-                </a>
-                </li>
-                <li>
-                <a href="#">
-                <i className='bi bi-circle'></i>
-                <span>Data Tables</span>
-                </a>
-                </li>
-                </ul>
-                </li>
+                </li>    
             </ul>
         </aside>
     )
