@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import "./dashboard.css"
 import Card from './Card';
 function Dashboard() {
-    const { cards, setCards } = useState([])
+    const [cards, setCards ] = useState([])
 
     const fetchData = () => {
         fetch('http://localhost:4000/cards')

@@ -30,7 +30,7 @@ const navList = [
         icon: 'bi bi-question-circle',
     },
     {
-        _id: 5,
+        _id: 7,
         name: 'Blank',
         icon: 'bi bi-file-earmark',
     },

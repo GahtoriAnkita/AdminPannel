@@ -21,7 +21,7 @@ function SideBar() {
                     >
                         <i className='bi bi-menu-button-wide'></i>
                         <span className='px-2'>Products</span>
-                        <i class="bi bi-chevron-compact-down ms-auto"></i>
+                        <i className="bi bi-chevron-compact-down ms-auto"></i>
                     </a>
                     <ul id='components-nav'
                         className='nav-content collapse'
@@ -51,9 +51,9 @@ function SideBar() {
                         data-bs-target='#forms-nav'
                         data-bs-toggle='collapse'
                     >
-                        <i class="bi bi-person-gear"></i>
+                        <i className="bi bi-person-gear"></i>
                         <span className='px-2'>Categories</span>
-                        <i class="bi bi-chevron-compact-down ms-auto"></i>
+                        <i className="bi bi-chevron-compact-down ms-auto"></i>
                     </a>
                     <ul
                         id='forms-nav'
@@ -79,9 +79,9 @@ function SideBar() {
                         data-bs-target='#tables-nav'
                         data-bs-toggle='collapse'
                     >
-                        <i class="bi bi-headset-vr"></i>
+                        <i className="bi bi-headset-vr"></i>
                         <span className='px-2'>Brands</span>
-                        <i class="bi bi-chevron-compact-down ms-auto"></i>
+                        <i className="bi bi-chevron-compact-down ms-auto"></i>
                     </a>
                     <ul
                         id='tables-nav'
@@ -106,9 +106,9 @@ function SideBar() {
                         data-bs-target='#order-nav'
                         data-bs-toggle='collapse'
                     >
-                        <i class="bi bi-card-list"></i>
+                        <i className="bi bi-card-list"></i>
                         <span className='px-2'>Order</span>
-                        <i class="bi bi-chevron-compact-down ms-auto"></i>
+                        <i className="bi bi-chevron-compact-down ms-auto"></i>
                     </a>
                     <ul
                         id='order-nav'
@@ -133,7 +133,7 @@ function SideBar() {
                         data-bs-target='#order-nav'
                         data-bs-toggle='collapse'
                     >
-                        <i class="bi bi-card-list"></i>
+                        <i className="bi bi-card-list"></i>
                         <span className='px-2'>Customers</span>
                     </a>
                 </li>
