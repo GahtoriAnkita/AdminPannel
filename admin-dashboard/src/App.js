@@ -9,12 +9,14 @@ import 'remixicon/fonts/remixicon.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import SideBar from './components/SideBar';
+import Main from './components/Main';
 
 
 function App() {
   return <>
     <Header />
     <SideBar/>
+    <Main/>
   </>
 }
 
