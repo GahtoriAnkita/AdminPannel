@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import CardFilter from './CardFilter';
+import "./card.css";
+
 function Card({ card }) {
     const [filter, setFilter] = useState('Today');
     const handleFilterChange = filter => {
