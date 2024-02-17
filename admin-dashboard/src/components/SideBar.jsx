@@ -12,65 +12,20 @@ function SideBar() {
                         <span className='px-2'>Dashboard</span>
                     </a>
                 </li>
-
-                <li className="nav-item">
-                    <a href="#"
-                        className="nav-link collapsed"
-                        data-bs-target='#components-nav'
-                        data-bs-toggle='collapse'
-                    >
-                        <i className='bi bi-menu-button-wide'></i>
-                        <span className='px-2'>Products</span>
-                        <i className="bi bi-chevron-compact-down ms-auto"></i>
+                <li className='nav-item'>
+                    <a href="#" className="nav-link">
+                   <i class="bi bi-file-earmark"></i>
+                        <span className='px-2'>Menu/Pages</span>
                     </a>
-                    <ul id='components-nav'
-                        className='nav-content collapse'
-                        data-bs-parent='#sidebar-nav'
-                    >
-                        <li>
-                            <a href="#" className='text-decoration-none'>
-                                <span>Product list</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className='text-decoration-none'>
-                                <span>Create Products</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className='text-decoration-none'>
-                                <span>Product Reviews</span>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
 
                 <li className='nav-item'>
                     <a href="#"
                         className='nav-link collapsed'
-                        data-bs-target='#forms-nav'
-                        data-bs-toggle='collapse'
                     >
                         <i className="bi bi-person-gear"></i>
                         <span className='px-2'>Categories</span>
-                        <i className="bi bi-chevron-compact-down ms-auto"></i>
                     </a>
-                    <ul
-                        id='forms-nav'
-                        className='nav-content collapse'
-                        data-bs-parent='#sidebar-nav'
-                    >
-                        <li>
-                            <a href="#" className='text-decoration-none'>
-                                <span>Categories List</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className='text-decoration-none'>
-                                <span>Create Categories</span>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
 
                 <li className='nav-item'>
@@ -90,16 +45,66 @@ function SideBar() {
                     >
                         <li>
                             <a href="#" className='text-decoration-none'>
-                                <span>Brand List</span>
+                                <span>Frame Type</span>
                             </a>
                         </li>
                         <li>
                             <a href="#" className='text-decoration-none'>
-                                <span>Create Brand</span>
+                                <span>Frame Shape</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className='text-decoration-none'>
+                                <span>Frame Size</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className='text-decoration-none'>
+                                <span>Frame Material</span>
                             </a>
                         </li>
                     </ul>
                 </li>
+
+                <li className="nav-item">
+                    <a href="#"
+                        className="nav-link collapsed"
+                        data-bs-target='#components-nav'
+                        data-bs-toggle='collapse'
+                    >
+                       
+                        <i class="bi bi-file-ppt"></i>
+                        <span className='px-2'>Power Type</span>
+                        <i className="bi bi-chevron-compact-down ms-auto"></i>
+                    </a>
+                    <ul id='components-nav'
+                        className='nav-content collapse'
+                        data-bs-parent='#sidebar-nav'
+                    >
+                        <li>
+                            <a href="#" className='text-decoration-none'>
+                                <span>Lens</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className='text-decoration-none'>
+                                <span>Lens Feature</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className='text-decoration-none'>
+                                <span>Lens Colors</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li className='nav-item'>
+                <a href="#" className="nav-link">
+                <i className='bi bi-menu-button-wide'></i>
+                    <span className='px-2'>Product</span>
+                </a>
+            </li>
 
                 <li className='nav-item'>
                     <a href="#" className='nav-link collapsed'
@@ -130,8 +135,6 @@ function SideBar() {
 
                 <li className='nav-item'>
                     <a href="#" className='nav-link collapsed'
-                        data-bs-target='#order-nav'
-                        data-bs-toggle='collapse'
                     >
                         <i className="bi bi-card-list"></i>
                         <span className='px-2'>Customers</span>

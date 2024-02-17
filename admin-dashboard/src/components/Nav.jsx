@@ -10,6 +10,7 @@ function Nav() {
       <NavNotice/>
       <NavMessage/>
       <NavAvatar/>
+      
       </ul>
     </nav>
   )
