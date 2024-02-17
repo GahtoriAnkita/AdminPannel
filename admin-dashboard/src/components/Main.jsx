@@ -8,7 +8,6 @@ function Main() {
     <>
     <main id='main' className='main'>
     <PageTitle page="Dashboard"/>
-    <Dashboard/>
     </main>
     </>
   )

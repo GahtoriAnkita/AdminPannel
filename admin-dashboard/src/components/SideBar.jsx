@@ -2,21 +2,22 @@ import React from 'react'
 import "./sideBar.css"
 import navList from "../data/navItem"
 import NavItem from './NavItem'
+import { Link } from 'react-router-dom'
 function SideBar() {
     return (
         <aside className='sidebar' id='sidebar'>
             <ul className="sidebar-nav" id='sidebar-nav'>
                 <li className='nav-item'>
-                    <a href="/" className="nav-link">
+                    <Link to="/" className="nav-link">
                         <i className="bi bi-grid"></i>
                         <span className='px-2'>Dashboard</span>
-                    </a>
+                    </Link>
                 </li>
                 <li className='nav-item'>
-                    <a href="#" className="nav-link">
+                    <Link to="menuPages" className="nav-link">
                    <i class="bi bi-file-earmark"></i>
                         <span className='px-2'>Menu/Pages</span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li className='nav-item'>
